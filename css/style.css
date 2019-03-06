@@ -5,6 +5,11 @@
     width: 970px;
     margin: 30px auto 40px;
 }
+.clearfix::after{
+    content: '';
+    display: block;
+    clear: both;
+}
 .main {
     display: block;
     float: left;
